@@ -13,7 +13,7 @@ namespace AzureMLClient
         public const string WorkspaceAuthToken = "74ec36c8efec4178b9c868a5df8f9926";
 
         // any storage account you wish to use
-        public const string AzureStorageConnectionString = "DefaultEndpointsProtocol=https;AccountName=micmancloudmltest2;AccountKey=hENx5QfYRh1kKUHtBPddXiagLrsKSRaB4aK4Eep0Fl3lR00utQ87VXghVBAGd/iyuDVEH8/YHUQfJ4yswg8eeA==";
+        public const string AzureStorageConnectionString = "DefaultEndpointsProtocol=https;AccountName=<your-storage-account>;AccountKey=<your-storage-account-access-key>==";
         public const string AzureStorageContainerName = "bes";
 
         // (optional) pre-uploaded blob for retraining - for demo purpose only
