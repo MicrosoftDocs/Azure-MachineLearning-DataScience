@@ -45,8 +45,8 @@ from azureml import services
 
 #Connection String
 CONTAINERNAME = 'test1'
-STORAGEACCOUNTNAME = 'weigstoragefordsvm'
-STORAGEACCOUNTKEY = 'FUyNCM83pY4K2srBfZv4yDr6ru7d+BfbmHPPtucqS7EIgvUSQBG4zPkznpCuClWVOMitAQXG3aJFbvuD7mBkhQ=='
+STORAGEACCOUNTNAME = '<storage-account-name>'
+STORAGEACCOUNTKEY = '<storage-account-key>'
 BLOBNAME = 'demo_ex_9_stratified_1_1000_copy.csv'
 
 blob_service = BlobService(account_name=STORAGEACCOUNTNAME,account_key=STORAGEACCOUNTKEY)
@@ -653,8 +653,8 @@ print ('R-Square in testing: %.4f' % R_Sq_test)
 # In[148]:
 
 #Find your workspaca credentials from Azure ML studio settings
-workspaceid = '5ef876a4f3ca460292afcd629808b823'
-auth_token = '810080c867b84e90be61bdf9b782dcbc'
+workspaceid = '<workspace-id>'
+auth_token = '<workspace-token>'
 
 #Create Web Service
 @services.publish(workspaceid, auth_token) 

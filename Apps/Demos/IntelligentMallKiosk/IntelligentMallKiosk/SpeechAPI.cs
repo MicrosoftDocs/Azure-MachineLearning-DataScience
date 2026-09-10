@@ -142,7 +142,7 @@ namespace MLMarketplaceDemo
             /*
              * Note: Create an App using the ADM portal by signing up for an account at https://datamarket.azure.com/home and then go to https://datamarket.azure.com/developer/applications and click register.  Put in some unique clientId and a client secret will be generated for you.  
              */
-            AdmAuthentication admAuth = new AdmAuthentication("HumanRecognizer", "/2fNvl3PRwiUMm9WLo1IcGF6lR0wUDacDQYsEEJHRr0=");
+            AdmAuthentication admAuth = new AdmAuthentication("HumanRecognizer", "<client-secret>");
 
             string requestUri = @"https://speech.platform.bing.com/recognize";
 

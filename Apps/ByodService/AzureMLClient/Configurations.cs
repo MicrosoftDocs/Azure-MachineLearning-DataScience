@@ -7,10 +7,10 @@ namespace AzureMLClient
         public static readonly Uri BaseUri = new Uri("https://studio.azureml.net/");
 
         // obtain this from url in the azure ml studio
-        public const string WorkspaceId = "9dbdce0846e64a5f9c925116e0cb6388";
+        public const string WorkspaceId = "<workspace-id>";
 
         // obtain this from Setting tab in ML Studio
-        public const string WorkspaceAuthToken = "74ec36c8efec4178b9c868a5df8f9926";
+        public const string WorkspaceAuthToken = "<workspace-token>";
 
         // any storage account you wish to use
         public const string AzureStorageConnectionString = "DefaultEndpointsProtocol=https;AccountName=<your-storage-account>;AccountKey=<your-storage-account-access-key>==";
